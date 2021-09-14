@@ -58,29 +58,7 @@ var result=await status.status;
       }
       return false;
 
-/*    var contactstatus =await Permission.contacts.status;
 
-    if(!contactstatus.isGranted){
-      await Permission.contacts.request();
-    }
-
-    var micro =await Permission.microphone.status;
-
-    if(!micro.isGranted){
-      await Permission.microphone.request();
-    }
-    var bluttoth =await Permission.bluetooth.status;
-
-    if(!bluttoth.isGranted){
-      await Permission.bluetooth.request();
-    }
-*/
-    /*
-    var status2 = await Permission.manageExternalStorage.status;
-
-    if(!status2.isGranted){
-      await Permission.manageExternalStorage.request();
-    }*/
   }
 
 _settext(bool x,String s){
